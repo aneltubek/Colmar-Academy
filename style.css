@@ -78,9 +78,7 @@ body{
 .banner_text{
     position: relative;
     margin: 10% 50px;
-    
-   
-    
+       
 }
 
 .banner_text h1{
@@ -110,29 +108,96 @@ font-weight: normal;
     column-gap: 50px;;
     display: grid;
     margin: 32px 24px;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 6fr 2fr;
+    grid-template-rows: 150px 150px 150px;
     grid-template-areas: 
-    ".keep_practicing .orientation_main"
-    ".keep_practicing .orientation_main"
-    ".practicing_text .orientation_main";
+    "keep_practicing orientation_main"
+    "keep_practicing orientation_main"
+    "keep_practicing orientation_main";
+    
+}
+
+.keep_practicing{
+    grid-area: keep_practicing;
+   
+}
+
+.orientation_main{
+grid-area: orientation_main;
+
+
+}
+
+.keep_practicing_text h1{
+text-align: center;
+margin: 32px;
+}
+
+.keep_practicing img{
+    width: 1000px;
+}
+
+
+.keep_practicing_text h1, 
+.keep_practicing_text p{
+    margin-bottom: 24px;
 }
 
 .orientation,
 .Ourcampus,
 .guest_lecture{
 display: flex;
-   margin-bottom: 15px;;
+   margin-bottom: 15px;
+   
+   
+   
 }
 
 .orientation img,
 .Ourcampus img,
 .guest_lecture img{
         height: 200px;
-
+        margin-right: 30px ;
 }
 
-.orientation_text{
+.guest_lecture p,
+.Ourcampus_text p,
+.orientation_text p{
+    font-weight: normal;
+    font-size: 15px;;
+}
+
+.orientation_main{
+    width:500px;
     
 }
 
+.orientation_text,
+.Ourcampus_text,
+.guest_lecture_text{
+        margin-top: 10%;;
+}
+
+.orientation h4,
+.Ourcampus h4,
+.guest_lecture h4{
+display: flex;
+   margin-bottom: 15px;
+   font-weight: bold;
+}
+
+.orientation_main a{
+   text-decoration: none;
+    }
+
+
+.start_learning{
+    margin-top: 350px;
+    background-color: rgb(170, 170, 170);
+    height: fit-content;
+    padding-top: 32px;
+    }
+
+    .start_learning h1{
+        text-align: center;
+    }

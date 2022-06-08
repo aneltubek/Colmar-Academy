@@ -58,3 +58,52 @@ body{
     text-decoration-line: none;
     color:black;
 }
+
+.learn_block{
+    margin-top: 15px;
+    position:block;
+    display:flex;
+    background-color: rgb(170, 170, 170);
+    height: 670px;
+    width: 100%;
+    padding: 32px 24px;
+    justify-content: left;
+}
+
+.banner img{
+    height: 600px;
+       }
+
+
+.banner_text{
+    position: relative;
+    margin: 10% 50px;
+    
+   
+    
+}
+
+.banner_text h1{
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.banner_text p{
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+ }
+
+#text_border{
+padding: 8px 8px;
+background-color: rgb(45, 45, 45);
+border: 1px solid rgb(45, 45, 45);
+color: white;
+text-align: center;
+font-weight: normal;
+
+}
+
+

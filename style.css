@@ -107,8 +107,9 @@ font-weight: normal;
 .container{
     column-gap: 50px;;
     display: grid;
+    width: 100%;
     margin: 32px 24px;
-    grid-template-columns: 6fr 2fr;
+    grid-template-columns: 5fr 1fr ;
     grid-template-rows: 150px 150px 150px;
     grid-template-areas: 
     "keep_practicing orientation_main"
@@ -196,8 +197,68 @@ display: flex;
     background-color: rgb(170, 170, 170);
     height: fit-content;
     padding-top: 32px;
+    padding-bottom: 32px;;
     }
 
     .start_learning h1{
         text-align: center;
     }
+
+.firstrow,
+.secondrow{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.firstrow img,
+.secondrow img{
+    margin: 30px;
+    
+    
+}
+  
+figure {
+    box-sizing: content-box;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+   
+}
+
+figcaption{
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+
+.thesis_header{
+text-align: center;
+
+margin: 32px;;
+}
+
+.container_thesis{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thesis_column1 video{
+    margin-left: 25px;;
+    width: 60%;
+    
+}
+  
+
+.thesis_column2{
+    
+    width: 40%;
+}

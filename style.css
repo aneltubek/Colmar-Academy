@@ -249,16 +249,47 @@ margin: 32px;;
 .container_thesis{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .thesis_column1 video{
     margin-left: 25px;;
-    width: 60%;
+    width: 90%;
     
 }
   
 
 .thesis_column2{
     
-    width: 40%;
+    width: 70%;
 }
+
+.thesis_column2 .row1{
+    display: flex;
+}
+
+.thesis_column2 .row2{
+    display: flex;
+}
+
+.row1 img,
+.row2 img{
+    padding-bottom: 15px;
+   
+}
+
+.thesis_text1, .thesis_text2 {
+    
+    padding: 20px;
+    
+}
+
+.thesis_text1 h4,
+.thesis_text2 h4{
+font-weight: bold;
+}
+
+.thesis_text1 p,
+.thesis_text2 p{
+    font-weight: normal;
+    }

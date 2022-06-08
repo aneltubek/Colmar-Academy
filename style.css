@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    }
+
+.navbar{
+    height: 64px;
+    margin-top: 16px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+   
+}
+
+.logo img{
+    height:32px;
+    margin-left: 10px;
+    height: 60px;
+}
+
+
+
+.academy_color{
+    color:lightgray;
+}
+
+.Colmar,
+.academy_color{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.navigation{
+    display:flex;
+
+}
+
+.navbar ul  {
+    display:flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 8px;
+    font-size: 20px;;
+   }
+
+.navbar ul li {
+    margin-right: 16px;
+
+}
+.navbar ul li a{
+    text-decoration-line: none;
+    color:black;
+}
